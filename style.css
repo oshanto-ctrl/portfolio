@@ -72,6 +72,37 @@ display: block;
     text-decoration: none;
 }
 
+
+/* About me: Home Dev */
+
+#my_profile_container {
+        display: flex;
+      justify-content: flex-end;
+}
+
+#my_profile p {
+        max-width: 400px;
+        background-color: #f2f2f2;
+        padding: 20px;
+        margin-right: 20px;
+        font-size: 18px;
+        font-family: Arial, sans-serif;
+        color: #333;
+        line-height: 1.5;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+
+
+
+
+
+
+
+
+
 /* Back to top */
  #back-to-top{
  font-size: 30px;
@@ -85,13 +116,15 @@ display: block;
     clear: both;
     text-align: center;
     padding 20px;
-    border-bottom: 3px solid blue;
+    border-top: 4px solid gray;
+    border-bottom: 3px solid gray;
 }
 
 
 /* html divs */
 .content-section {
-      height: 800px;
+      /* height: 800px; */
+      height: 600px;
       background-color: #f2f2f2;
     }
 
