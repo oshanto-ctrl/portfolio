@@ -66,8 +66,8 @@ document.addEventListener('scroll', scrollUp)
 // Showing pdf
 function showPDF() {
 	var pdfContainer = document.getElementById('pdfContainer');
-	// pdfContainer.innerHTML = "<embed src='resume_rejoan_siddiky.pdf' type='application/pdf' width='100%' height='100%' />"
-	var pdfPath = 'resume_rejoan_siddiky.pdf';
+	// pdfContainer.innerHTML = "<embed src='other_assets/resume_rejoan_siddiky.pdf' type='application/pdf' width='100%' height='100%' />"
+	var pdfPath = '/other_assets/resume_rejoan_siddiky.pdf';
 	window.open(pdfPath, '_blank');
 }
 
