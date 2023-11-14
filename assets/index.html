@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <!--head section-->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Portfolio" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/fa62c117c7.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="styles.css" />
+    <title>Rejoan Siddiky</title>
+  </head>
+
+  <!--body section-->
+  <body class="light" id="top">
+
+    <!--header section-->
+    <header class="header center">
+      <h3>
+        <a href="https://rajshekhar26.github.io/cleanfolio-minimal" class="link"
+          >RS.</a
+        >
+      </h3>
+
+      <nav class="nav center">
+        <ul class="nav__list center">
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#projects">Projects</a>
+          </li>
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#skills">Skills</a>
+          </li>
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#contact">Contact</a>
+          </li>
+        </ul>
+
+        <button type="button" aria-label="toggle theme" class="btn btn--icon">
+          <i aria-hidden="true" id="btn-theme" class="fas fa-moon"></i>
+        </button>
+
+        <button
+          type="button"
+          aria-label="toggle navigation"
+          class="btn btn--icon nav__hamburger"
+        >
+          <i aria-hidden="true" class="fas fa-bars"></i>
+        </button>
+      </nav>
+    </header>
+
+    <!--main section-->
+    <main>
+      <!-- About -->
+      <div class="about center">
+        <h1>Hi, I am <span class="about__name">MD Rejoan Siddiky.</span></h1>
+        <h2 class="about__role">A Software Engineer.</h2>
+        <p class="about__desc">
+          I'm currently in my final year of studying Computer Science and Engineering, 
+          passionate about the world of software engineering.
+          With a focus on problem solving, I've honed my skills in Python, SQL,
+          C++, and machine learning, all while developing a strong 
+          understanding of algorithms and data structures. 
+          I'm eager to contribute and collaborate in the exciting realm of technology and software development.
+          Let's spark something great together.
+        </p>
+
+        <div class="about__contact center" id="pdfContainer">
+          <a onclick="showPDF()">
+            <span class="btn btn--outline">Resume</span>
+          </a>
+
+          <a
+            href="https://github.com/oshanto-ctrl"
+            aria-label="github"
+            class="link link--icon" target="_blank"
+          >
+            <i aria-hidden="true" class="fab fa-github"></i>
+          </a>
+
+          <a
+            href="https://www.linkedin.com/in/rejoan-siddiky/"
+            aria-label="linkedin"
+            class="link link--icon" target="_blank"
+          >
+            <i aria-hidden="true" class="fab fa-linkedin"></i>
+          </a>
+        </div>
+      </div>
+
+      <!-- Projects -->
+      <section id="projects" class="section projects">
+        <h2 class="section__title">Projects</h2>
+
+        <!-- Projects grid -->
+        <div class="projects__grid">
+          
+          <!-- Project 1 -->
+          <div class="project">
+            <h3>Blogging Web Application</h3>
+            <p class="project__description">
+              Programmed a dynamic blog app enabling user registration,
+              login/logout, and seamless blog management with formatting,
+              editing, and deletion features.
+            </p>
+            <ul class="project__stack">
+              <li class="project__stack-item">Python</li>
+              <li class="project__stack-item">Django</li>
+              <li class="project__stack-item">HTML5/CSS3</li>
+            </ul>
+            <!--Project 2 github link -->
+            <a
+              href="https://github.com/oshanto-ctrl/Blog-application-using-Django-Framework"
+              aria-label="source code"
+              class="link link--icon"
+              target="_blank"
+            >
+              <i aria-hidden="true" class="fab fa-github"></i>
+            </a>
+            <!--Project 2 live link 
+            <a
+              href="https://example.com"
+              aria-label="live preview"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+            </a>
+            -->
+          </div>
+          
+          <!-- Project 2 -->
+          <div class="project">
+            <h3>OCR Web Application</h3>
+            <p class="project__description">
+              Developed a Python Flask project with Easy-OCR for
+              optical character recognition. Users upload images,
+              select languages, and recieve text output.
+            </p>
+            <ul class="project__stack">
+              <li class="project__stack-item">Flask</li>
+              <li class="project__stack-item">Python</li>
+              <li class="project__stack-item">HTML5/CSS3</li>
+            </ul>
+            <!--Project 2 gihub link -->
+            <a
+              href="https://github.com/oshanto-ctrl/Optical-Character-Recognition-using-EasyOCR-and-Flask"
+              aria-label="source code"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fab fa-github"></i>
+            </a>
+
+            <!--Project 2 live link 
+            <a
+              href="https://example.com"
+              aria-label="live preview"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+            </a>
+            -->
+          </div>
+
+          <!-- Project 3 -->
+          <div class="project">
+            <h3>Sentiment Analysis Application</h3>
+            <p class="project__description">
+              Crafted a RESTful API in Python's Flask, 
+              leveraging Hugging Face Transformers for sentiment analysis.
+              Endpoint '/analyze' delivers precise sentiment results.
+            </p>
+            <ul class="project__stack">
+              <li class="project__stack-item">Flask</li>
+              <li class="project__stack-item">Python</li>
+              <li class="project__stack-item">HTML5/CSS3</li>
+            </ul>
+            <!-- Project 3 github link -->
+            <a
+              href="https://github.com/oshanto-ctrl/sentiment-analysis-api"
+              aria-label="source code"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fab fa-github"></i>
+            </a>
+            <!-- Project 3 live link 
+            <a
+              href="https://example.com"
+              aria-label="live preview"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+            </a>
+            -->
+          </div>
+
+          <!-- Project n 
+          <div class="project">
+            <h3>Sentiment Analysis Application</h3>
+            <p class="project__description">
+              Crafted a RESTful API in Python's Flask, 
+              leveraging Hugging Face Transformers for sentiment analysis.
+              Endpoint '/analyze' delivers precise sentiment results.
+            </p>
+            <ul class="project__stack">
+              <li class="project__stack-item">Flask</li>
+              <li class="project__stack-item">Python</li>
+              <li class="project__stack-item">HTML5/CSS3</li>
+            </ul>
+            Project 3 github link 
+            <a
+              href="https://github.com/oshanto-ctrl/sentiment-analysis-api"
+              aria-label="source code"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fab fa-github"></i>
+            </a>
+            Project 3 live link 
+            <a
+              href="https://example.com"
+              aria-label="live preview"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+            </a>
+            
+            </div>
+            -->
+        
+        </div>
+      </section>
+
+      <!-- Skills section -->
+      <section class="section skills" id="skills">
+        <h2 class="section__title">Skills</h2>
+        <ul class="skills__list">
+          <li class="skills__list-item btn btn--plain">HTML</li>
+          <li class="skills__list-item btn btn--plain">CSS</li>
+          <li class="skills__list-item btn btn--plain">Python</li>
+          <li class="skills__list-item btn btn--plain">JavaScript</li>
+          <li class="skills__list-item btn btn--plain">C++</li>
+          <li class="skills__list-item btn btn--plain">PHP</li>
+          <li class="skills__list-item btn btn--plain">Flask</li>
+          <li class="skills__list-item btn btn--plain">Django</li>
+          <li class="skills__list-item btn btn--plain">Git</li>
+          <li class="skills__list-item btn btn--plain">MySQL</li>
+          <li class="skills__list-item btn btn--plain">Problem Solving</li>
+          <!-- <li class="skills__list-item btn btn--plain">CI/CD</li> -->
+        </ul>
+      </section>
+
+      <!-- Contact section -->
+      <section class="section contact center" id="contact">
+        <h2 class="section__title">Contact</h2>
+        <p id="blueText"><strong>Feel free to contact me...</strong></p>
+        <a href="mailto:siddikyrejoan.work@gmail.com">
+          <span class="btn btn--outline">Email me</span>
+        </a>
+      </section>
+    </main>
+
+    <!-- Footer section -->
+    <footer class="footer">
+      <a
+        href="https://github.com/oshanto-ctrl"
+        class="link footer__link"
+      >
+      &#x26A1; oshanto-ctrl (Md. Rejoan Siddiky)
+        <!--Original Credit: https://rajshekhar26.github.io/cleanfolio-minimal/ -->
+      </a>
+    </footer>
+
+    <div class="scroll-container">
+    <div class="scroll-top">
+      <a aria-label="Scroll up" href="#top">
+        <i aria-hidden="true" class="fas fa-arrow-up"></i>
+      </a>
+    </div>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
