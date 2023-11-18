@@ -67,7 +67,7 @@ var pdfContainer = document.getElementById('pdfContainer');
 function showPDF() {
 	
 	// pdfContainer.innerHTML = "<embed src='other_assets/resume_rejoan_siddiky.pdf' type='application/pdf' width='100%' height='100%' />"
-	var pdfPath = "/resume/resume_rejoan_siddiky.pdf";
+	var pdfPath = "resume/resume_rejoan_siddiky.pdf";
 	window.open(pdfPath, '_blank');
 }
 
