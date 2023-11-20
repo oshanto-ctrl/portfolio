@@ -27,12 +27,14 @@ body {
 }
 
 .light {
-  --clr-bg: #fcfcfc;
-  --clr-bg-alt: #fff;
+
+  --clr-bg: #f2f2f2;
+  --clr-bg-alt: #f2f2f2;
   --clr-fg: #555;
   --clr-fg-alt: #444;
   --clr-primary: #2978b5;
   --shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
 }
 
 .dark {
@@ -266,7 +268,14 @@ main {
 .about__desc {
   font-size: 1rem;
   max-width: 600px;
+  line-height: 1.6;
 }
+
+/*
+.about__desc::first-line {
+  font-weight: bold;
+}
+*/
 
 .about__desc,
 .about__contact {
@@ -417,12 +426,12 @@ contact text
 =============*/
 #blueText {
   color: #555; /* Initial color */
-  transition: color 2s ease; /* Transition property for color change */
+  transition: color 1s ease; /* Transition property for color change */
   margin-bottom: 10px;
 }
 
 #blueText:hover {
-  color: blue; /* Color changes on hover to blue */
+  color: rgb(51, 51, 235); /* Color changes on hover to blue */
 }
 
 

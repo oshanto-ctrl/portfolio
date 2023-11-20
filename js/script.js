@@ -71,4 +71,28 @@ function showPDF() {
 	window.open(pdfPath, '_blank');
 }
 
+// Changing roles in about__role @ index.html
+// about section.
+
+document.addEventListener("DOMContentLoaded",
+	function(){
+		const roleElement = document.querySelector(".about__role");
+		const roles = ["A Software Engineer", "A CS Undergraduate", "A Researcher", "A Good Friend"];
+
+		let i = 0;
+
+		function changeRole(){
+			roleElement.style.optacity = 0;
+
+			setTimeout(	function() {
+				roleElement.textContent = roles[i];
+				i = (i + 1) % roles.length;
+				roleElement.style.optacity = 1;
+			}, 500);
+		}
+
+		// changes of role every 2 seconds
+		setInterval(changeRole, 2000);
+	}
+);
 
