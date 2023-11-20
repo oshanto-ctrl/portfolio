@@ -32,16 +32,6 @@ I'm a passionate and dedicated individual currently pursuing a degree in Compute
 - **Technologies:** Machine Learning
 - **Tools:** Git, GitHub
 
-## Projects
-
-### Project 1: [Project Name]
-
-[Description of the project and its significance.]
-
-### Project 2: [Project Name]
-
-[Description of the project and its significance.]
-
 ## How to Run
 
 [Instructions on how to set up and run the project locally, if applicable.]
@@ -52,4 +42,4 @@ I'm open to collaboration and new opportunities. Feel free to reach out!
 
 - Email: your.email@example.com
 - LinkedIn: [Your LinkedIn Profile](https://www.linkedin.com/in/rejoan-siddiky/)
-- Portfolio: [Your Portfolio Website](https://github.com/oshanto-ctrl/portfolio)
+- Portfolio: [Your Portfolio Website](https://oshanto-ctrl.github.io/portfolio/)
