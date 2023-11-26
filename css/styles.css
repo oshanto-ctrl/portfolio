@@ -345,6 +345,11 @@ main {
   margin: 0.5em;
 }
 
+.prog_research {
+  flex-direction: column;
+}
+
+
 .contact {
   flex-direction: column;
 }
