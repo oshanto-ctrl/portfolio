@@ -345,8 +345,25 @@ main {
   margin: 0.5em;
 }
 
-.prog_research {
+.problem_solving {
   flex-direction: column;
+}
+
+.research {
+  flex-direction: column;
+}
+
+
+.research-info-item-label {
+  flex-direction: column;
+  font-weight: bold;
+}
+
+
+.research-info-item {
+  flex-direction: column;
+  font-style: italic;
+  margin-bottom: 10px;
 }
 
 
@@ -433,10 +450,12 @@ contact text
   color: #555; /* Initial color */
   transition: color 1s ease; /* Transition property for color change */
   margin-bottom: 10px;
+  
 }
 
 #blueText:hover {
   color: rgb(51, 51, 235); /* Color changes on hover to blue */
+  font-weight: bold;
 }
 
 
