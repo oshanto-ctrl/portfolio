@@ -77,7 +77,7 @@ function showPDF() {
 document.addEventListener("DOMContentLoaded",
 	function(){
 		const roleElement = document.querySelector(".about__role");
-		const roles = ["A CS Undergrad.", "An Aspiring SWE.", "A Researcher.", "A Good Friend."];
+		const roles = ["A CS Undergrad.", "An Aspiring SWE.", "An Aspiring Researcher.", "A Good Friend."];
 
 		let i = 0;
 
