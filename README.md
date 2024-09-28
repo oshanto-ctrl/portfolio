@@ -2,6 +2,8 @@
 
 Welcome to my portfolio repository! This project showcases my skills, experiences, and projects in the field of computer science and software engineering.
 
+- Live Link: https://oshanto-ctrl.github.io/portfolio/
+
 ## About Me
 
 I'm a passionate and dedicated individual currently pursuing a degree in Computer Science and Engineering. My journey involves problem-solving, algorithm mastery, and a keen interest in software development.
