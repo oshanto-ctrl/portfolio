@@ -92,7 +92,7 @@ document.addEventListener("DOMContentLoaded",
 		}
 
 		// changes of role every 2 seconds
-		setInterval(changeRole, 2000);
+		setInterval(changeRole, 2100);
 	}
 );
 
