@@ -263,6 +263,22 @@ main {
 
 .about__role {
   margin-top: 1.2em;
+  font-size: 2.5rem;
+  font-weight: 500;
+  text-transform: capitalize;
+  position: relative;
+  padding-bottom: 0.5em;
+}
+
+.about__role::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 60px;
+  height: 3px;
+  background: var(--clr-primary);
+  border-radius: 3px;
 }
 
 .about__desc {
@@ -290,6 +306,7 @@ main {
   margin-right: 1em;
 }
 
+/* Project Card CSS */
 .projects__grid {
   max-width: 1100px;
   margin: 0 auto;
@@ -458,7 +475,83 @@ contact text
   font-weight: bold;
 }
 
+/* Problem Solving Cards */
+.oj-card-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1.5rem;
+  margin-top: 1.5rem;
+  padding: 0 1rem;
+}
 
+.oj-card {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  text-decoration: none;
+  background-color: var(--clr-bg-alt);
+  color: var(--clr-fg);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  padding: 1rem 1.2rem;
+  transition: all 0.3s ease;
+  box-shadow: var(--shadow);
+}
 
+.oj-card:hover {
+  transform: translateY(-4px);
+  border-color: var(--clr-primary);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
 
+.oj-logo {
+  width: 48px;
+  height: 48px;
+  border-radius: 10px;
+  background-size: cover;
+  background-position: center;
+  flex-shrink: 0;
+}
 
+/* Logos — replace URLs if you have local images */
+.oj-logo.leetcode {
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/1/19/LeetCode_logo_black.png");
+}
+.oj-logo.codeforces {
+  background-image: url("https://codeforces.org/s/93344/images/codeforces-sponsored-by-ton.png");
+}
+.oj-logo.hackerrank {
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/6/65/HackerRank_logo.png");
+}
+.oj-logo.gfg {
+  background-image: url("https://media.geeksforgeeks.org/gfg-gg-logo.svg");
+}
+.oj-logo-uva {
+  background-image: url("https://onlinejudge.org/templates/hm_yaml_2_5/img/ojlogo2.svg.png");
+}
+
+.oj-info h4 {
+  margin: 0;
+  font-size: 1.1rem;
+  color: var(--clr-fg-alt);
+}
+
+.oj-info p {
+  margin: 0.4rem 0 0;
+  font-size: 0.9rem;
+  color: var(--clr-fg);
+  line-height: 1.5;
+}
+
+/* Responsive for smaller screens */
+@media (max-width: 600px) {
+  .oj-card {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .oj-logo {
+    width: 60px;
+    height: 60px;
+  }
+}
